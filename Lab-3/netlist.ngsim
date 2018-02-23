@@ -1,0 +1,15 @@
+***** Spice Netlist for Cell 'Lab2' *****
+
+************** Module Lab2 **************
+v0 n0 gnd dc 0v ac 1v sin('0v' '1v' '1k' '0s') 
+r0 n0 n1 50 noisy=0 
+c0 gnd n1 102.7p ic=0 
+r1 n1 vout res noisy=0 
+r2 gnd vout res noisy=0 
+c1 gnd vout 102.7 ic=0 
+r3 gnd vout 1meg noisy=0 
+c2 gnd vout 13p ic=0 
+
+
+.end
+

@@ -1,0 +1,39 @@
+Note: can't find init file.
+
+Circuit: ***** spice netlist for cell 'lab1' *****
+
+binary raw file
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+No. of Data Columns : 4  
+
+No. of Data Rows : 1
+No. of Data Columns : 5  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n0                                           0
+va                                           0
+vb                                           0
+v0#branch                                    0
+
+
+No. of Data Rows : 6001
+
+Total elapsed time: 0.250 seconds.
+
+Total DRAM available = 16256.367188 MB.
+DRAM currently available = 11825.859375 MB.
+Total ngspice program size = 11.300781 MB.
+
+***** Operating Point Values (Generated from .op Statement) *****
+
+                      n0 = 0.000e+000
+                      va = 0.000e+000
+                      vb = 0.000e+000
+                      i_v0 = 0.000e+000
+
+***************** End of Operating Point Values ******************
