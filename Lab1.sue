@@ -1,0 +1,57 @@
+proc SCHEMATIC_Lab1 {} {
+make name_net -name Va -origin {580 350}
+make name_net -name Vb -origin {870 330}
+make global -name GND -origin {720 510}
+make R -orient R90 -name R0 -resistance 50 -origin {450 350}
+make R -orient R90 -name R1 -resistance 160k -origin {790 350}
+make C -name C0 -capacitance 1.5n -origin {860 430}
+make V_sin -name V0 -peak_voltage 4V -frequency freq -origin {370 440}
+make C -name C1 -capacitance 102.7p -origin {930 430}
+make C -name C2 -capacitance 102.7p -origin {510 430}
+make C -name C3 -capacitance 102.7p -ic 0 -origin {590 430}
+make R -name R2 -resistance 1MEG -origin {730 430}
+make R -name R3 -resistance 1MEG -origin {1090 440}
+make C -name C5 -capacitance 13p -ic 0 -origin {660 430}
+make C -name C4 -capacitance 13p -origin {1010 430}
+  make_wire 370 510 370 480
+  make_wire 370 350 410 350
+  make_wire 1090 400 1090 350
+  make_wire 1090 480 1090 510
+  make_wire 1010 510 1090 510
+  make_wire 1010 350 1090 350
+  make_wire 870 330 870 350
+  make_wire 730 350 750 350
+  make_wire 720 510 730 510
+  make_wire 930 350 870 350
+  make_wire 930 350 1010 350
+  make_wire 930 510 1010 510
+  make_wire 860 350 830 350
+  make_wire 860 350 870 350
+  make_wire 860 510 730 510
+  make_wire 860 510 930 510
+  make_wire 370 350 370 400
+  make_wire 490 350 510 350
+  make_wire 580 350 510 350
+  make_wire 370 510 510 510
+  make_wire 510 510 590 510
+  make_wire 580 350 590 350
+  make_wire 590 350 660 350
+  make_wire 730 350 660 350
+  make_wire 590 510 660 510
+  make_wire 720 510 660 510
+  make_wire 860 470 860 510
+  make_wire 860 350 860 390
+  make_wire 930 350 930 390
+  make_wire 930 470 930 510
+  make_wire 660 350 660 390
+  make_wire 660 470 660 510
+  make_wire 730 350 730 390
+  make_wire 730 470 730 510
+  make_wire 590 350 590 390
+  make_wire 590 470 590 510
+  make_wire 510 350 510 390
+  make_wire 510 470 510 510
+  make_wire 1010 350 1010 390
+  make_wire 1010 470 1010 510
+}
+

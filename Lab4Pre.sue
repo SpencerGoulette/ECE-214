@@ -1,0 +1,35 @@
+proc SCHEMATIC_Lab4Pre {} {
+make global -name GND -origin {1290 920}
+make name_net -name vin -origin {1020 550}
+make V_dc -name V0 -dc_voltage 10 -origin {1510 680}
+make V_dc -name V1 -dc_voltage -10 -origin {1420 960}
+make global -name GND -origin {1420 1040}
+make global -name GND -origin {1510 750}
+make name_net -name vout -origin {1550 810}
+make R -orient R90 -name R1 -resistance res1 -origin {1100 550}
+make R -orient R90 -name R2 -resistance res2 -origin {1410 550}
+make V_sin -name V2 -peak_voltage 1.7957 -frequency 10K -origin {980 770}
+make IdealOpAmp -name xi0 -origin {1360 770}
+  make_wire 1450 550 1590 550
+  make_wire 980 550 980 730
+  make_wire 1510 620 1510 640
+  make_wire 1420 620 1420 770
+  make_wire 1510 720 1510 750
+  make_wire 1310 790 1290 790
+  make_wire 1590 810 1590 550
+  make_wire 1420 1000 1420 1040
+  make_wire 1290 550 1370 550
+  make_wire 980 810 980 830
+  make_wire 1140 550 1290 550
+  make_wire 1550 810 1590 810
+  make_wire 1550 810 1490 810
+  make_wire 1290 830 1290 920
+  make_wire 1290 550 1290 790
+  make_wire 1420 620 1510 620
+  make_wire 1420 920 1420 850
+  make_wire 980 830 1290 830
+  make_wire 1290 830 1310 830
+  make_wire 980 550 1020 550
+  make_wire 1020 550 1060 550
+}
+

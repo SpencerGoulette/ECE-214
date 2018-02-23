@@ -1,0 +1,36 @@
+proc SCHEMATIC_Lab4 {} {
+make global -name GND -origin {1460 1240}
+make global -name GND -origin {1570 1350}
+make global -name GND -origin {1820 1330}
+make global -orient RXY -name GND -origin {1820 1100}
+make global -name GND -origin {1500 1130}
+make name_net -name vin -origin {1510 1050}
+make OpAmp_Ideal -name xi0 -origin {1760 1200}
+make V_dc -name V1 -dc_voltage 10 -ac_voltage 0 -origin {1460 1200}
+make V_dc -orient RXY -name V2 -dc_voltage 10 -ac_voltage 0 -origin {1820 1150}
+make name_net -name vout -origin {1890 1170}
+make V_dc -name V0 -ac_voltage 0 -origin {1500 1090}
+make R -name R2 -origin {1570 1200}
+make R -name R3 -origin {1570 1310}
+make R -orient R90 -name R0 -resistance 6K -origin {1560 1050}
+make R -orient R90 -name R1 -resistance 10K -origin {1740 1050}
+  make_wire 1710 1260 1650 1260
+  make_wire 1650 1050 1700 1050
+  make_wire 1650 1050 1600 1050
+  make_wire 1460 1160 1570 1160
+  make_wire 1510 1050 1500 1050
+  make_wire 1510 1050 1520 1050
+  make_wire 1820 1190 1820 1200
+  make_wire 1820 1280 1820 1330
+  make_wire 1820 1100 1820 1110
+  make_wire 1710 1220 1620 1220
+  make_wire 1620 1220 1620 1250
+  make_wire 1620 1250 1570 1250
+  make_wire 1890 1050 1780 1050
+  make_wire 1570 1240 1570 1250
+  make_wire 1570 1250 1570 1270
+  make_wire 1650 1050 1650 1260
+  make_wire 1890 1050 1890 1170
+  make_wire 1890 1170 1890 1240
+}
+

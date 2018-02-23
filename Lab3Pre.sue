@@ -1,0 +1,32 @@
+proc SCHEMATIC_Lab3Pre {} {
+make R -orient R90 -name R0 -resistance res1 -origin {1000 680}
+make R -orient R90 -name R1 -resistance res2 -origin {1250 680}
+make C -name C0 -capacitance cap1 -origin {1120 770}
+make C -name C1 -capacitance cap2 -origin {1400 770}
+make global -name GND -origin {1220 850}
+make name_net -name vout -origin {1390 680}
+make name_net -name vin -origin {930 680}
+make R -orient R90 -name R2 -resistance 50 -origin {870 680}
+make C -name C2 -capacitance 102.7p -origin {1310 770}
+make V_sin -name V0 -frequency FREQUENCY -origin {830 760}
+  make_wire 1400 810 1400 850
+  make_wire 830 850 830 800
+  make_wire 1120 810 1120 850
+  make_wire 1400 680 1400 730
+  make_wire 1120 680 1120 730
+  make_wire 1390 680 1400 680
+  make_wire 1120 680 1040 680
+  make_wire 1120 680 1210 680
+  make_wire 930 680 910 680
+  make_wire 930 680 960 680
+  make_wire 1290 680 1310 680
+  make_wire 1390 680 1310 680
+  make_wire 1220 850 1310 850
+  make_wire 1400 850 1310 850
+  make_wire 1310 810 1310 850
+  make_wire 1310 680 1310 730
+  make_wire 830 850 1120 850
+  make_wire 1120 850 1220 850
+  make_wire 830 680 830 720
+}
+

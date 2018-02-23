@@ -1,0 +1,35 @@
+proc SCHEMATIC_Lab2 {} {
+make V_sin -name V0 -origin {1080 790}
+make R -orient R90 -name R0 -resistance 50 -origin {1160 720}
+make C -name C0 -capacitance 102.7p -origin {1250 790}
+make R -orient R90 -name R1 -resistance res -origin {1330 720}
+make R -name R2 -resistance res -origin {1440 790}
+make C -name C1 -capacitance 102.7 -origin {1570 790}
+make R -name R3 -resistance 1MEG -origin {1690 790}
+make C -name C2 -capacitance 13p -origin {1810 790}
+  make_wire 1080 720 1080 750
+  make_wire 1080 720 1120 720
+  make_wire 1250 750 1250 720
+  make_wire 1250 720 1200 720
+  make_wire 1250 720 1290 720
+  make_wire 1250 830 1250 870
+  make_wire 1250 870 1080 870
+  make_wire 1080 870 1080 830
+  make_wire 1810 720 1810 750
+  make_wire 1690 750 1690 720
+  make_wire 1690 720 1810 720
+  make_wire 1570 750 1570 720
+  make_wire 1570 720 1690 720
+  make_wire 1440 750 1440 720
+  make_wire 1440 720 1570 720
+  make_wire 1440 720 1370 720
+  make_wire 1810 870 1810 830
+  make_wire 1690 830 1690 870
+  make_wire 1690 870 1810 870
+  make_wire 1570 830 1570 870
+  make_wire 1570 870 1690 870
+  make_wire 1440 830 1440 870
+  make_wire 1440 870 1570 870
+  make_wire 1440 870 1250 870
+}
+
