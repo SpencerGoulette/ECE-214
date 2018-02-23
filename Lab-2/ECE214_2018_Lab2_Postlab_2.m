@@ -17,7 +17,7 @@ set(gca, 'fontsize', 16); % set font size
 legend show % show legend
 legend('Location', 'southeast');
 xlabel('Frequency (Hz)'); % label x-axis
-ylabel('Phase Shift (°)'); % label y-axis
+ylabel('Phase Shift (Â°)'); % label y-axis
 title('Semilog plot of Measured and Simulated Phase Shifts as a function of Frequency'); % add title
 
 %% End of .m file
