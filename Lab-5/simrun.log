@@ -1,0 +1,135 @@
+
+Circuit: ***** spice netlist for cell 'lab5pre' *****
+
+binary raw file
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+No. of Data Columns : 52  
+
+No. of Data Rows : 1
+No. of Data Columns : 53  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n3                                          10
+n4                                          10
+n0                                     4.99999
+vout2                                  4.99998
+vout1                                  5.00001
+n2                                           5
+xi0.11                                0.345441
+xi0.12                                0.345453
+xi0.6                             3.47779e-009
+xi0.7                                  4.99998
+xi0.53                                     7.8
+xi0.54                                     2.2
+xi0.90                           -2.16278e-006
+xi0.91                                      25
+xi0.92                                     -25
+xi0.99                                       5
+xi0.10                                 4.60142
+n1                                     5.00001
+xi0.9                                        0
+xi0.8                                  4.99998
+xi1.11                                0.345441
+xi1.12                                0.345453
+xi1.6                             -1.6511e-009
+xi1.7                                  5.00001
+xi1.53                                     7.8
+xi1.54                                     2.2
+xi1.90                            2.23287e-006
+xi1.91                                      25
+xi1.92                                     -25
+xi1.99                                       5
+xi1.10                                 4.60141
+xi1.9                                        0
+xi1.8                                  5.00001
+h.xi1.hlim#branch                -5.50745e-031
+v.xi1.vlim#branch                 2.23287e-009
+h.xi0.hlim#branch                 6.10844e-031
+v.xi0.vlim#branch                -2.16278e-009
+v.xi1.vln#branch                       -8e-016
+v.xi1.vlp#branch                       -8e-016
+v.xi1.ve#branch                   7.99999e-016
+v.xi1.vc#branch                   7.99999e-016
+v.xi1.vb#branch                  -1.65106e-014
+v.xi0.vln#branch                       -8e-016
+v.xi0.vlp#branch                       -8e-016
+v.xi0.ve#branch                   7.99999e-016
+v.xi0.vc#branch                   7.99999e-016
+v.xi0.vb#branch                   3.47776e-014
+v2#branch                        -7.00953e-011
+v1#branch                          -0.00486136
+v0#branch                          -0.00486136
+a$poly$e.xi1.egnd#branch_1_0     -3.90725e-007
+a$poly$e.xi0.egnd#branch_1_0     -3.86319e-007
+
+
+No. of Data Rows : 79200
+
+Total elapsed time: 5.576 seconds.
+
+Total DRAM available = 16256.367188 MB.
+DRAM currently available = 11587.199219 MB.
+Total ngspice program size = 11.855469 MB.
+
+***** Operating Point Values (Generated from .op Statement) *****
+
+                      n3 = 1.000e+001
+                      n4 = 1.000e+001
+                      n0 = 5.000e+000
+                      vout2 = 5.000e+000
+                      vout1 = 5.000e+000
+                      n2 = 5.000e+000
+                      xi0_11 = 3.454e-001
+                      xi0_12 = 3.455e-001
+                      xi0_6 = 3.478e-009
+                      xi0_7 = 5.000e+000
+                      xi0_53 = 7.800e+000
+                      xi0_54 = 2.200e+000
+                      xi0_90 = -2.163e-006
+                      xi0_91 = 2.500e+001
+                      xi0_92 = -2.500e+001
+                      xi0_99 = 5.000e+000
+                      xi0_10 = 4.601e+000
+                      n1 = 5.000e+000
+                      xi0_9 = 0.000e+000
+                      xi0_8 = 5.000e+000
+                      xi1_11 = 3.454e-001
+                      xi1_12 = 3.455e-001
+                      xi1_6 = -1.651e-009
+                      xi1_7 = 5.000e+000
+                      xi1_53 = 7.800e+000
+                      xi1_54 = 2.200e+000
+                      xi1_90 = 2.233e-006
+                      xi1_91 = 2.500e+001
+                      xi1_92 = -2.500e+001
+                      xi1_99 = 5.000e+000
+                      xi1_10 = 4.601e+000
+                      xi1_9 = 0.000e+000
+                      xi1_8 = 5.000e+000
+                      i_h_xi1_hlim = -5.507e-031
+                      i_v_xi1_vlim = 2.233e-009
+                      i_h_xi0_hlim = 6.108e-031
+                      i_v_xi0_vlim = -2.163e-009
+                      i_v_xi1_vln = -8.000e-016
+                      i_v_xi1_vlp = -8.000e-016
+                      i_v_xi1_ve = 8.000e-016
+                      i_v_xi1_vc = 8.000e-016
+                      i_v_xi1_vb = -1.651e-014
+                      i_v_xi0_vln = -8.000e-016
+                      i_v_xi0_vlp = -8.000e-016
+                      i_v_xi0_ve = 8.000e-016
+                      i_v_xi0_vc = 8.000e-016
+                      i_v_xi0_vb = 3.478e-014
+                      i_v2 = -7.010e-011
+                      i_v1 = -4.861e-003
+                      i_v0 = -4.861e-003
+                      i_a$poly$e_xi1_egnd = -3.907e-007
+                      i_a$poly$e_xi0_egnd = -3.863e-007
+
+***************** End of Operating Point Values ******************
