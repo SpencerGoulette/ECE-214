@@ -1,0 +1,13 @@
+***** Spice Netlist for Cell 'Lab6Pre' *****
+
+************** Module Lab6Pre **************
+r0 vg vin 50 noisy=0 
+v0 vg gnd dc 0v ac 1v sin('0v' '1v' 'frequency' '0s') 
+l0 vc n0 ind 
+c0 gnd n1 cap ic=0 
+r1 vin n0 res1 noisy=0 
+r2 n1 vc res2 noisy=0 
+
+
+.end
+
