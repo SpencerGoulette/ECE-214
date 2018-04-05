@@ -1,0 +1,77 @@
+
+Circuit: ***** spice netlist for cell 'lab7pre' *****
+
+binary raw file
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 23  
+
+No. of Data Rows : 1
+No. of Data Columns : 24  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x0.9                                     11.94
+x0.7                              6.47584e-031
+x0.8                              1.31359e-005
+n5                                1.31359e-005
+n3                                       11.94
+n4                                4.99146e-031
+x0.4                                         0
+x0.5                                     11.94
+x0.10                                    11.94
+x0.11                                    11.94
+x0.6                                     11.94
+n7                                           0
+n0                                     11.2645
+n2                                          12
+n6                                           0
+vout                                   11.2645
+n1                                       11.94
+v.x0.vfi1#branch                             0
+v.x0.vfi2#branch                  9.98292e-033
+l0#branch                           -0.0244999
+e.x0.ev16#branch                       -2e-010
+v1#branch                         9.98292e-033
+v0#branch                           -0.0244999
+
+
+No. of Data Rows : 455373
+
+Total elapsed time: 7.635 seconds.
+
+Total DRAM available = 16256.367188 MB.
+DRAM currently available = 10659.359375 MB.
+Total ngspice program size = 11.953125 MB.
+
+***** Operating Point Values (Generated from .op Statement) *****
+
+                      x0_9 = 1.194e+001
+                      x0_7 = 6.476e-031
+                      x0_8 = 1.314e-005
+                      n5 = 1.314e-005
+                      n3 = 1.194e+001
+                      n4 = 4.991e-031
+                      x0_4 = 0.000e+000
+                      x0_5 = 1.194e+001
+                      x0_10 = 1.194e+001
+                      x0_11 = 1.194e+001
+                      x0_6 = 1.194e+001
+                      n7 = 0.000e+000
+                      n0 = 1.126e+001
+                      n2 = 1.200e+001
+                      n6 = 0.000e+000
+                      vout = 1.126e+001
+                      n1 = 1.194e+001
+                      i_v_x0_vfi1 = 0.000e+000
+                      i_v_x0_vfi2 = 9.983e-033
+                      i_l0 = -2.450e-002
+                      i_e_x0_ev16 = -2.000e-010
+                      i_v1 = 9.983e-033
+                      i_v0 = -2.450e-002
+
+***************** End of Operating Point Values ******************
