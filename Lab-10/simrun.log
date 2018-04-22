@@ -1,0 +1,90 @@
+
+Circuit: ***** spice netlist for cell 'lab10pre_sue' *****
+
+binary raw file
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+No. of Data Columns : 30  
+
+No. of Data Rows : 1
+No. of Data Columns : 31  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n0                                   0.0652204
+n2                                          12
+vout                                        12
+n1                                          12
+n3                                          12
+vc2                                          4
+vc1                                          0
+x0.9                                 0.0652193
+x0.7                                         4
+x0.8                                 0.0131907
+x0.4                                         0
+x0.5                                 -0.251821
+x0.10                                 -3.93478
+x0.11                                 -0.25181
+x0.6                                  -0.25181
+x1.9                                        12
+x1.7                              2.17667e-032
+x1.8                              1.32628e-011
+x1.4                                         0
+x1.5                                        12
+x1.10                                       12
+x1.11                                       12
+x1.6                                        12
+v.x1.vfi1#branch                             0
+v.x1.vfi2#branch                  9.98318e-033
+v.x0.vfi1#branch                             0
+v.x0.vfi2#branch                 -2.14977e-033
+e.x1.ev16#branch                       -2e-010
+e.x0.ev16#branch                       7.36593
+v0#branch                           -0.0122681
+
+
+No. of Data Rows : 203279
+
+Total elapsed time: 3.197 seconds.
+
+Total DRAM available = 16256.367188 MB.
+DRAM currently available = 11364.742188 MB.
+Total ngspice program size = 11.820313 MB.
+
+***** Operating Point Values (Generated from .op Statement) *****
+
+                      n0 = 6.522e-002
+                      n2 = 1.200e+001
+                      vout = 1.200e+001
+                      n1 = 1.200e+001
+                      n3 = 6.522e-002
+                      vc2 = 4.000e+000
+                      vc1 = 4.000e+000
+                      x0_9 = 6.522e-002
+                      x0_7 = 4.000e+000
+                      x0_8 = 1.319e-002
+                      x0_4 = 0.000e+000
+                      x0_5 = -2.518e-001
+                      x0_10 = -3.935e+000
+                      x0_11 = -2.518e-001
+                      x0_6 = -2.518e-001
+                      x1_9 = 6.522e-002
+                      x1_7 = 4.000e+000
+                      x1_8 = 1.319e-002
+                      x1_4 = 0.000e+000
+                      x1_5 = -2.518e-001
+                      x1_10 = -3.935e+000
+                      x1_11 = -2.518e-001
+                      x1_6 = -2.518e-001
+                      i_v_x1_vfi1 = 0.000e+000
+                      i_v_x1_vfi2 = -2.150e-033
+                      i_v_x0_vfi1 = 0.000e+000
+                      i_v_x0_vfi2 = -2.150e-033
+                      i_e_x1_ev16 = 7.366e+000
+                      i_e_x0_ev16 = 7.366e+000
+                      i_v0 = -2.414e-002
+
+***************** End of Operating Point Values ******************
